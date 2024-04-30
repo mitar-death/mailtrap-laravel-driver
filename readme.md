@@ -6,7 +6,6 @@ This package provides a Mailtrap driver for Laravel, allowing you to send emails
 
 You can install the package via composer:
 
-\`\`\`bash  
 composer require mazi/mailtrap-driver
 
 ## **Configuration**
