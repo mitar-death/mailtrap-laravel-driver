@@ -1,36 +1,38 @@
 {
-    "name": "mazi/mailtrap-driver",
-    "description": "A Mailtrap email driver for Laravel.",
-    "require": {
-        "php": ">=7.0 | <8.3",
-        "illuminate/support": "^6|^7|^8|^9",
-        "illuminate/mail": "^6|^7|^8|^9",
-        "guzzlehttp/guzzle": "^7.0.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Mazi\\MailtrapDriver\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Mazi\\MailtrapDriver\\Tests\\": "tests/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Explorer",
-            "email": "email@exmaple.com"
-        }
-    ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Mazi\\MailtrapDriver\\MailtrapServiceProvider"
-            ]
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.6"
+  "name": "mazi/mailtrap-driver",
+  "description": "A Mailtrap email driver for Laravel.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.0 | <8.3",
+    "illuminate/support": "^6|^7|^8|^9",
+    "illuminate/mail": "^6|^7|^8|^9",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mazi\\MailtrapDriver\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mazi\\MailtrapDriver\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Explorer",
+      "email": "email@exmaple.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mazi\\MailtrapDriver\\MailtrapServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  }
 }
