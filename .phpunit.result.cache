@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Mazi\\MailtrapDriver\\Tests\\Unit\\MailtrapTransportTest::testSendSuccess":4,"Mazi\\MailtrapDriver\\Tests\\Unit\\MailtrapTransportTest::testSendFailure":4},"times":{"Mazi\\MailtrapDriver\\Tests\\Unit\\MailtrapTransportTest::testSendSuccess":0.033,"Mazi\\MailtrapDriver\\Tests\\Unit\\MailtrapTransportTest::testSendFailure":0.001}}
